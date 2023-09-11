@@ -26,6 +26,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+
+  max-width: 320px;
   background-color: #E1E7F6;
 }
 
@@ -47,16 +49,22 @@ video {
 header {
   color: #EAEAEA;
   background-color: #1C1C1C;
+  padding: 44px 16px;
 }
 
 nav {
-  border-bottom: rgba(58, 90, 247, 0.50);
+  border-bottom: rgba(58, 90, 247, 0.50);  
+}
+
+nav a {
   display: block;
 }
 
 main a {
   color: #EAEAEA;
   background: #3A5AF7;
+  margin-bottom: 32px;
+  display: block;
 }
 
 .carre {
@@ -72,5 +80,34 @@ main a {
 
 .plus {
   padding: 6px 16px;
-  border-radius: 50px; ici
+  border-radius: 24px;
+  background-color: #FFF;
+  color: #3A5AF7;
+  font-size: 30px;
+  
+}
+
+div {
+  margin: 65px 16px;
+  background-color: #FFF;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-left: 16px;
+  margin-top: 15px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+h3 {
+  margin-left: 16px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+p {
+  margin: 15px 16px;
+  font-size: 18px;
+  letter-spacing: 0.9px;
 }
